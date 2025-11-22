@@ -2,20 +2,20 @@
 #include <locale.h>
 
 int main() {
-    //variant 2
+    //variant 3
     setlocale(LC_CTYPE, "");
     char symbol;
     int a, b;
 
-    printf("Введите символ для рисования: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г±ГЁГ¬ГўГ®Г« Г¤Г«Гї Г°ГЁГ±Г®ГўГ Г­ГЁГї: ");
     scanf("%c", &symbol);
 
-    printf("Введите длину a: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г¤Г«ГЁГ­Гі a: ");
     scanf("%d", &a);
 
-    printf("Введите длину b: ");
+    printf("Г‚ГўГҐГ¤ГЁГІГҐ Г¤Г«ГЁГ­Гі b: ");
     scanf("%d", &b);
-    printf("\nПрямоугольный треугольник:\n\n");
+    printf("\nГЏГ°ГїГ¬Г®ГіГЈГ®Г«ГјГ­Г»Г© ГІГ°ГҐГіГЈГ®Г«ГјГ­ГЁГЄ:\n\n");
 
     for (int i = 1; i <= a; i++) {
         for (int j = 1; j <= i * b / a; j++) {
@@ -23,7 +23,7 @@ int main() {
         }
         printf("\n");
     }
-    printf("\nОчень красиво!\n");
+    printf("\nГЋГ·ГҐГ­Гј ГЄГ°Г Г±ГЁГўГ®!\n");
     system("pause");
     return 0;
 }
